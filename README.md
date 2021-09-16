@@ -10,7 +10,7 @@ npm install -D webpack webpack-cli
 
 2. **配置webpack.config.js**
 
-   ```json
+   ```
    // 引入包(用于拼接路径)
    const path = require('path');
    // 引入html插件
@@ -98,25 +98,25 @@ npm install -D webpack webpack-cli
 
 3. 在package.json文件中加入
 
-```json
+```
 "build": "webpack"
 ```
 
 4. 通过命令行执行
 
-```json
+```
 npm run build
 ```
 
 5. webpack开发服务器（内置服务器）
 
-```json
+```
  npm i -D webpack-dev-server
 ```
 
 6. 配置tsconfig.json
 
-```json
+```
 {
   /*
     tsconfig.json是ts编译器的配置文件，ts编译器可以根据它的信息来对代码进行编译
@@ -173,13 +173,13 @@ npm run build
 
 7. 启动ts热编译
 
-   ```json
+   ```
    tsc -D
    ```
 
 8. package.json
 
-   ```json
+   ```
    {
      "name": "part3",
      "version": "1.0.0",
