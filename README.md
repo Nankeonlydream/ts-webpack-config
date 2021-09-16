@@ -174,7 +174,7 @@ npm run build
 7. 启动ts热编译
 
    ```
-   tsc -D
+   tsc -W
    ```
 
 8. package.json
