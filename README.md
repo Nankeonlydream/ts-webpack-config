@@ -236,4 +236,10 @@ npm run build
    
    ```
 
+   9. 启动实时刷新npm
    
+      ```
+      npm start
+      ```
+   
+      
